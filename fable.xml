@@ -1,5 +1,5 @@
 <fable>
-	<page background="bg.png".png">
+	<page background="bg.png">
   
     <agent text="O cavaleiro está congelado, arraste e solte o cogumelo do sol para salvar ele" x="20" y="400" font-size="18" width="250" />
         
@@ -21,9 +21,9 @@
     </agent>
     
     <agent img="Mushroom_2.png" x="450" y="450" 
-      width="38" height="38" draggable="true" on-drop="congelado" on-zone="lived" on-trigger="lived">
+      width="38" height="38" draggable="true" on-drop="congelado" on-zone="vivo" on-trigger="vivo">
     	
-      <lived x="-50" />
+      <vivo x="-50" />
     </agent> 
     
   </page>
