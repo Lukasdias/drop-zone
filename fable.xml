@@ -14,14 +14,14 @@
     <agent img="block.png" x="300" y="0" width="100" height="100" /> 
     <agent img="block.png" x="400" y="0" width="100" height="100" /> 
     
-    <agent img="dead.png" x="100" y="90" width="80" 
-      height="80" drop-zone="restore"> 
+    <agent img="IceBox.png" x="100" y="90" width="80" 
+      height="80" drop-zone="congelado"> 
     	
-      <restore img="cavaleiro.png" width="80" height="100" /> 
+      <congelado img="cavaleiro.png" width="80" height="100" /> 
     </agent>
     
     <agent img="Mushroom_2.png" x="450" y="450" 
-      width="38" height="38" draggable="true" on-drop="restore" on-zone="lived" on-trigger="lived">
+      width="38" height="38" draggable="true" on-drop="congelado" on-zone="lived" on-trigger="lived">
     	
       <lived x="-50" />
     </agent> 
