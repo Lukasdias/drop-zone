@@ -7,11 +7,11 @@
         <agent img="block.png" x="200" y="0" width="100" height="100"/>
         <agent img="block.png" x="300" y="0" width="100" height="100"/>
         <agent img="block.png" x="400" y="0" width="100" height="100"/>
-        <agent img="IceBox.png" x="100" y="90" width="80" height="80" drop-zone="congelado">
-            <congelado img="Idle (1).png" width="80" height="100"/>
+        <agent img="IceBox.png" x="100" y="90" width="80" height="80" drop-zone="descongelado">
+            <descongelado img="Idle (1).png" width="80" height="100"/>
         </agent>
-        <agent img="Mushroom_2.png" x="450" y="450" width="38" height="38" draggable="true" on-drop="congelado" on-zone="vivo" on-trigger="vivo">
-            <vivo x="-50"/>
+        <agent img="Mushroom_2.png" x="450" y="450" width="38" height="38" draggable="true" on-drop="descongelado" on-zone="vivo" on-trigger="vivo">
+            <remove-cogumelo x="-50"/>
         </agent>
     </page>
 </fable>
